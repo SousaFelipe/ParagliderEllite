@@ -1,0 +1,34 @@
+{
+  "name": "paraglider-ellite-server",
+  "version": "1.0.0",
+  "description": "Servidor Node para o game multiplayer \"Paraglider Ellite\"",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node \\src\\app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SousaFelipe/ParagliderEllite.git"
+  },
+  "keywords": [
+    "paragliding",
+    "paraglider",
+    "simulator",
+    "parapente",
+    "simulador"
+  ],
+  "author": {
+    "name": "Felipe Sousa",
+    "email": "sousa.felipe@outlook.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SousaFelipe/ParagliderEllite/issues"
+  },
+  "homepage": "https://github.com/SousaFelipe/ParagliderEllite#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socketio": "^1.0.0"
+  }
+}
